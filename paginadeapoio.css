@@ -1,0 +1,22 @@
+img {max-width: 100%;}
+
+main {
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+div {width: 40%;}
+
+div#pagina { 
+    background-color: white;
+    width: 40%
+ }
+
+ header {background-color: white;}
+
+ div:last-child {text-align: center;}
+
+ body {background-image: url("cherry\ blossom2.jpg");
+    background-size:cover ;
+}
