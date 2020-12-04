@@ -1,4 +1,6 @@
-img {max-width: 100%;}
+img {
+width: 50%;
+}
 
 main {
     display: flex;
@@ -6,11 +8,12 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-div {width: 40%;}
+div.vogais {width: 40%;}
 
 div#pagina { 
     background-color: white;
-    width: 40%
+    width: 60%;
+    justify-content: center;
  }
 
  header {background-color: white;}
@@ -20,3 +23,16 @@ div#pagina {
  body {background-image: url("cherry\ blossom2.jpg");
     background-size:cover ;
 }
+
+img:hover {
+    transform: scale(2.0);
+    transition: transform 2S;
+}
+
+/*
+para aplicar no projeto seguinte e em detalhe:
+<h2>E aqui estão algumas palavras que podemos já formar com o que aprendemos até agora:</h2>
+<h3>(Clica na palavra para veres o que significa ;) )</h3>
+<a href="https://www.youtube.com/"> aka </a>
+página para ser criada fica guardada, para colocar dps online com as palavras e imagens da palavra (ex: aka vermelho)
+*/
